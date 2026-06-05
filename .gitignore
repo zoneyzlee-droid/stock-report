@@ -1,0 +1,19 @@
+# 敏感設定檔
+tw_send_report.py
+*.json
+*.csv
+*.xlsx
+
+# 本機完整報告（含敏感資料）
+report/index_full.html
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 只上傳 docs/ 資料夾
+report/*.txt
+*.bat
+tw_*.py
+!docs/
